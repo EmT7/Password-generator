@@ -8,4 +8,8 @@ This projects uses:
 * CSS 
 * Javascript
 
+<<<<<<< HEAD
 ## Made by MirandaT77 
+=======
+## Made by MirandaT77 
+>>>>>>> e846c3cc70db7dab628825c8a387a6d1857fba15
