@@ -31,7 +31,8 @@ function generatePassword() {
   var specialCharactersChoicesAvailable = "-[.]\{`}|;':,<>?~!@#$%^&*()_+="
 
   var chosenCharacters = ""; 
-  var generatedPassword; 
+  var generatedPassword = ""; 
+  console.log("generatedPassword", generatedPassword)
   if (lowerCase == true) {
     chosenCharacters = chosenCharacters + lowerCaseLetters
   }
@@ -52,6 +53,7 @@ function generatePassword() {
 
   for (i = 0; i < passwordLength; i++) {
     generatedPassword=generatedPassword+chosenCharacters.charAt(Math.floor(Math.random()* Math.floor(chosenCharacters.length)));
+    console.log("forLoop",generatedPassword)
   }
   return generatedPassword
 }
@@ -62,6 +64,7 @@ var generateBtn = document.querySelector("#generate");
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
+  console.log("new password",password)
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
