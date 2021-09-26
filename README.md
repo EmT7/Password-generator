@@ -8,5 +8,7 @@ This projects uses:
 * CSS 
 * Javascript
 
+https://mirandat77.github.io/Password-generator/
+
 ## Made by MirandaT77 
 
